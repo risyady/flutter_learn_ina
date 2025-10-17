@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_learn_ina/screen/signup_screen.dart';
+import 'package:flutter_learn_ina/screen/beranda_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   static String id = "splash";
@@ -26,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
         ); */
         Navigator.pushReplacementNamed(
           context,
-          SignupScreen.id,
+          BerandaScreen.id,
         );
       },
     );

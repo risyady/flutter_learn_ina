@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learn_ina/screen/beranda_screen.dart';
 import 'package:flutter_learn_ina/screen/detail_screen.dart';
 import 'package:flutter_learn_ina/screen/extract_argument_screen.dart';
 import 'package:flutter_learn_ina/screen/home_screen.dart';
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       initialRoute: SplashScreen.id,
       routes: {
         SplashScreen.id: (context) => const SplashScreen(),
+        BerandaScreen.id: (context) => const BerandaScreen(),
         HomeScreen.id: (context) => const HomeScreen(),
         DetailScreen.id: (context) => const DetailScreen(),
         SignupScreen.id: (context) => const SignupScreen(),
